@@ -1,0 +1,30 @@
+# Compiled Java files
+*.class
+
+# Compiled output folder
+out/
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Local environment/configuration files
+.env
+
+# Java build/cache files
+*.jar.original
