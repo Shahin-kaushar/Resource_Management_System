@@ -460,7 +460,50 @@ The application retrieves previous usage records from MySQL.
 ---
 
 
+# Future Improvements
+
+Possible future improvements:
+
+- REST API
+- Postman testing
+- Web-based interface
+- Login and authentication
+- Admin dashboard
+- PDF receipt generation
+- Resource maintenance status
+- Reports and analytics
+- Online payment integration
+
+---
+
+# Project Summary
+
+This project demonstrates how **Java OOP, JDBC, and MySQL** can be combined to create a simple Resource Management System.
+
+The main flow is:
+
+```text
+User
+ |
+ v
+Main.java
+ |
+ v
+ResourceService
+ |
+ +-------------------+
+ |                   |
+ v                   v
+Repositories      Business Rules
+ |
+ v
+MySQL
 ```
+
+When a resource is started, the system records the start time.
+
+When the user finishes the resource, the system records the actual end time, calculates the duration, rounds it up to the next hour, calculates the final price, generates the bill, and stores the completed transaction in MySQL.
+
 
 
 
