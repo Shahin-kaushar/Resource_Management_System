@@ -1,5 +1,5 @@
 
-# Simple Resource Management System
+# Resource Management System
 
 A simple console-based **Resource Management System** built using **Java, Object-Oriented Programming (OOP), JDBC, and MySQL**.
 
